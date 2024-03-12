@@ -50,3 +50,22 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+
+# Python
+__pycache__/
+.venv/
+
+# python venv site packages
+site-packages/
+
+# C
+*.out
+*.o
+*.exe
+*.pyc
+
+
+#intellij idea 
+.idea/
